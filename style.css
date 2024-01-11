@@ -1,6 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .header-container {
@@ -67,6 +69,7 @@ a {
 }
 
 .header-image-placeholder {
+    border: 1px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,4 +91,110 @@ a {
 .image1 {
     height: 200px;
     width: auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.sec2img {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    height: 100px;
+}
+
+.sec2img1,
+.sec2img2,
+.sec2img3,
+.sec2img4 {
+    width: 100px;
+    text-align: center;
+}
+
+.sec2text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    padding: 120px 150px 120px 150px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec3width {
+    width: 770px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec3text1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 250;
+}
+
+.sec3text2 {
+    align-self: flex-end;
+    margin-left: auto;
+    font-weight: 500;
+}
+
+
+.section4 {
+    display: flex;
+    justify-content: center;
+}
+
+.outer-div {
+    padding: 100px;
+}
+
+.bluetext {
+    background-color: #3882F6;
+    display: flex;
+    padding: 15px 110px 15px 110px;
+    gap: 40px;
+    border-radius: 10px;
+}
+
+.signbutton {
+    border: 2px solid white;
+    align-self: center;
+}
+
+.sec4text1 {
+    margin-bottom: 0;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sec4text2 {
+    margin-top: 5px;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1F2937;
+    color: white;
 }
